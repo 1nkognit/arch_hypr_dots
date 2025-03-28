@@ -19,7 +19,7 @@ cd # go back to home
 
 ## 3. Сlone dotfiles repo
 ```
-git clone https://github.com/1nkognit/hyprland_dotfiles.git
+git clone https://github.com/1nkognit/arch_hypr_dots.git
 ```
 
 ## 4. Run install.sh bash script
