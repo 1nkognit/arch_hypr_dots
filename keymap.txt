@@ -1,0 +1,20 @@
+Super + R - Terminal
+Super + W - Browser
+Super + E - File manager
+Super + F1 - Calculator
+Super + V - Clipboard
+Super + S - Screenshot
+Super + C - Colorpicker
+Super + F10 - Shutdown
+Super + F11 - Reboot
+Super + Q - Kill active window
+Super + T - Toggle floating
+Super + Shift + T - fullscreen
+Super + M - Exit hyprland
+Super + Space - App menu
+Super + Arrows - Move window focus
+Super + 0-9 - Switch workspace
+Super + Tab - Switch to next workspace
+Super + Scroll - switch workspace
+Super + Shift + 0-9 - Move window to workspace
+Super + B - Reload waybar 
