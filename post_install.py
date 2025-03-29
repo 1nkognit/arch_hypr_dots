@@ -71,17 +71,13 @@ file = open(hyprlock_conf,'wb')
 content = file.write(hypr_config.encode())
 file.close()
 
-
-try:
-    subprocess.run(
-        ["sudo", "tee", "/etc/polkit-1/rules.d/50-udisks.rules"],
-        input=rule_content,
-        text=True,
-        check=True
-    )
+#subprocess.run(
+#    ["sudo", "tee", "/etc/polkit-1/rules.d/50-udisks.rules"],
+#    input=rule_content,
+#    text=True,
+#    check=True
+#)
     
-    subprocess.run(["sudo", "systemctl", "restart", "polkit"], check=True)
-except:
-    pass
+# subprocess.run(["sudo", "systemctl", "restart", "polkit"], check=True)
 
 os.system('systemctl --user enable --now pipewire pipewire-pulse wireplumber')
