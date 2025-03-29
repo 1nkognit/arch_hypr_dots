@@ -81,3 +81,5 @@ subprocess.run(
 )
 
 subprocess.run(["sudo", "systemctl", "restart", "polkit"], check=True)
+
+os.system('systemctl --user enable --now pipewire pipewire-pulse wireplumber')
