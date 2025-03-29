@@ -34,3 +34,5 @@ hyprland
 ```
 
 Done!
+
+Have any feedback/issues? Contact dots developer on discord: @vova_4104
